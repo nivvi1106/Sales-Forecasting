@@ -52,7 +52,7 @@ This project can be executed either in a local Python environment (using Jupyter
 1.  **Clone the Repository:**
     Open your terminal or command prompt and run the following command to download the project files:
     ```bash
-    git clone [https://github.com/nivvi1106/Sales-Forecasting.git](https://github.com/nivvi1106/Sales-Forecasting.git)
+    git clone https://github.com/nivvi1106/Sales-Forecasting.git
     ```
 
 2.  **Navigate to Project Directory:**
