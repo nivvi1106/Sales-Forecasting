@@ -61,8 +61,7 @@ This project can be executed either in a local Python environment (using Jupyter
     cd Sales-Forecasting
     ```
 
-3.  **Create a Virtual Environment (Recommended):**
-    It's good practice to create a virtual environment to manage project dependencies separately.
+3.  **Create a Virtual Environment:**
     ```bash
     python -m venv venv
     ```
@@ -113,12 +112,11 @@ This project can be executed either in a local Python environment (using Jupyter
 
 3.  **Upload Dataset to Google Drive & Mount:**
     * Upload the `Walmart.csv` dataset to your Google Drive (e.g., into a folder like `My Drive/Colab Notebooks/Store_Sales/`).
-    * Add the following lines at the beginning of your notebook (usually in the first code cell) to mount your Google Drive:
+    * Add the following lines at the beginning of your notebook to mount your Google Drive:
         ```python
         from google.colab import drive
         drive.mount('/content/drive')
         ```
-        *This will prompt you for authentication.*
 
 4.  **Update File Path:**
     Ensure the `file_path` variable in your data loading cell (`file_path = '/content/drive/MyDrive/Colab Notebooks/Store_Sales/Walmart.csv'`) correctly points to the location where you uploaded `Walmart.csv` in your Google Drive.
